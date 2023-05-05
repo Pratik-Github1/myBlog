@@ -19,5 +19,5 @@ from app import views
 
 urlpatterns = [
     path('' , include("app.urls")) ,
-    path('index/' , views.index , name="index") ,
+    path('/' , views.index , name="index") ,
 ]
